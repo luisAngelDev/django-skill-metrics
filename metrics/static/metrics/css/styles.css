@@ -1,40 +1,16 @@
-* {
-    background: #0e0e0e;
-}
+/* Tipografía y utilidades */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.bg-gradient-dark { background: radial-gradient(1200px 400px at 10% 10%, #1a1a1a, #0e0e0e); }
+.bg-gradient { background: linear-gradient(180deg, rgba(255,193,7,.06), transparent); }
+.object-fit-cover { object-fit: cover; }
 
-body {
-    font-family: Arial, sans-serif;
-    background: #0e0e0e;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header, footer {
-    text-align: center;
-    padding: 20px;
-    background: #111;
-  }
-  
-  nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-  }
-  
-  .skill-bar {
-    margin: 15px 0;
-  }
-  
-  .bar {
-    background: #333;
-    border-radius: 20px;
-    overflow: hidden;
-  }
-  
-  .progress {
-    background: #f39c12;
-    padding: 5px;
-    text-align: right;
-  }
-  
+/* Progreso animado */
+.progress { height: 10px; background-color: #2a2a2a; }
+.progress-bar { transition: width 1.2s ease; }
+
+/* Contadores */
+.counter-card .display-5 { line-height: 1; }
+.counter-card { padding: .5rem; }
+
+/* Imagen hero redondeada */
+.rounded-4 { border-radius: 1rem !important; }

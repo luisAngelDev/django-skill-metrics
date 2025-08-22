@@ -5,7 +5,7 @@
 
 {% block content %}
   <!-- HERO / ENCABEZADO -->
-  <section class="py-5 bg-gradient-dark border-bottom border-secondary">
+  <section class="py-5 bg-gradient-dark">
     <div class="container">
       <div class="row align-items-center gy-4">
         <div class="col-lg-6">
@@ -27,39 +27,60 @@
       </div>
     </div>
   </section>
+
+
+  <!-- SOBRE NOSOTROS -->
+<section class="py-5">
+  <div class="container">
+    <div class="row gy-4 align-items-center">
+      <div class="col-lg-6">
+        <h2 class="h3 fw-bold">¿Qué hacemos?</h2>
+        <p class="text-secondary">
+          Integración de métricas visuales para portafolios y perfiles técnicos:
+          barras de progreso animadas, contadores numéricos y secciones listas para producción.
+        </p>
+        <ul class="list-unstyled">
+          <li class="mb-2"><i class="bi bi-check2-circle text-warning me-2"></i> Diseño responsive con Bootstrap 5</li>
+          <li class="mb-2"><i class="bi bi-check2-circle text-warning me-2"></i> Animaciones eficientes con IntersectionObserver</li>
+          <li class="mb-2"><i class="bi bi-check2-circle text-warning me-2"></i> Estructura Django por app (templates/static)</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <div class="bg-black rounded-4 p-4 border border-secondary">
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <span class="small text-uppercase text-secondary">Edición de video</span>
+            <span class="small text-secondary"><span class="percent" data-percent="85">0</span>%</span>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Edición de video" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning progress-animate" data-percent="85" style="width:0%"></div>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between mt-4 mb-2">
+            <span class="small text-uppercase text-secondary">Videografía</span>
+            <span class="small text-secondary"><span class="percent" data-percent="90">0</span>%</span>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Videografía" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning progress-animate" data-percent="90" style="width:0%"></div>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between mt-4 mb-2">
+            <span class="small text-uppercase text-secondary">Branding</span>
+            <span class="small text-secondary"><span class="percent" data-percent="77">0</span>%</span>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Branding" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning progress-animate" data-percent="77" style="width:0%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
   
-  <section class="skills">
-    <h2>Our Skills</h2>
-    <div class="skill-bar">
-      <span>Video Editing</span>
-      <div class="bar"><div class="progress" style="width:85%">85%</div></div>
-    </div>
-    <div class="skill-bar">
-      <span>Videography</span>
-      <div class="bar"><div class="progress" style="width:90%">90%</div></div>
-    </div>
-    <div class="skill-bar">
-      <span>Branding</span>
-      <div class="bar"><div class="progress" style="width:77%">77%</div></div>
-    </div>
-  </section>
-  
-  <section class="counters">
-    <div class="counter">
-      <h3>20+</h3>
-      <p>Years of Experience</p>
-    </div>
-    <div class="counter">
-      <h3>1,000+</h3>
-      <p>Projects Done</p>
-    </div>
-    <div class="counter">
-      <h3>300+</h3>
-      <p>Satisfied Clients</p>
-    </div>
-    <div class="counter">
-      <h3>64</h3>
-      <p>Certified Awards</p>
-    </div>
-  </section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- JS propio (animaciones) -->
+<script src="{% static 'metrics/js/metrics.js' %}" defer></script>
 {% endblock %}
