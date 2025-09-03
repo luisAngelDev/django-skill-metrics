@@ -52,3 +52,17 @@ Sigue estos pasos para correr el proyecto en tu máquina local:
    ```
    http://127.0.0.1:8000/
    ```
+
+   
+## 🔐 Acceso al panel de administración
+
+Puedes acceder al panel de administración de Django en:
+
+```
+http://127.0.0.1:8000/admin
+```
+
+> ⚠️ Necesitas crear un superusuario:
+> ```bash
+> python manage.py createsuperuser
+> ```
