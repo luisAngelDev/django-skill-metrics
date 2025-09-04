@@ -66,3 +66,14 @@ http://127.0.0.1:8000/admin
 > ```bash
 > python manage.py createsuperuser
 > ```
+
+
+
+
+## 👨‍💻 Autor
+
+**Luis Ramos**  
+[GitHub: @luisAngelDev](https://github.com/luisAngelDev) 
+
+## 📄 Licencia
+Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](./LICENSE) para más detalles.
