@@ -68,7 +68,42 @@ http://127.0.0.1:8000/admin
 > ```
 
 
+## 📂 Estructura del proyecto
 
+django-skill-metrics/
+├── manage.py
+├── django_skill_metrics/ # Configuración principal del proyecto
+│ ├── settings.py
+│ ├── urls.py
+│ ├── wsgi.py
+│ └── asgi.py
+│
+├── metrics/ # App principal
+│ ├── migrations/ # Migraciones de base de datos
+│ ├── models.py
+│ ├── views.py
+│ ├── urls.py
+│ ├── admin.py
+│ └── templates/
+│ └── metrics/
+│ └── our_metrics.html # Página principal con métricas
+│
+├── static/ # Archivos estáticos
+│ └── metrics/
+│ ├── img/ # Imágenes del sitio
+│ ├── css/ # Estilos CSS
+│ │ └── styles.css
+│ └── js/ # Archivos JS
+│ └── metrics.js
+│
+├── templates/ # Plantillas generales
+│ └── base.html
+│
+├── venv/ # Entorno virtual (ignorado por git)
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── .env # Variables de entorno (ignorado por git)
 
 ## 👨‍💻 Autor
 
