@@ -14,3 +14,18 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 
 /* Imagen hero redondeada */
 .rounded-4 { border-radius: 1rem !important; }
+
+
+/* Extra estilos para los contadores */
+.counter-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .counter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(255,193,7,0.3);
+  }
+  
+  .counter-card i {
+    display: block;
+  }
+  
