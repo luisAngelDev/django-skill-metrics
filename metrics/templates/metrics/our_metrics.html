@@ -16,7 +16,7 @@
             Datos claros, diseño limpio y rendimiento rápido en Django.
           </p>
           <a href="#skills" class="btn btn-warning btn-lg">
-            Ver Skills <i class="bi bi-arrow-down-short"></i>
+            Ver contadores <i class="bi bi-arrow-down-short"></i>
           </a>
         </div>
         <div class="col-lg-6">
@@ -79,7 +79,7 @@
 <!-- CONTADORES -->
 <section class="py-5 bg-dark text-light">
   <div class="container text-center">
-    <h2 class="fw-bold mb-5">Nuestros números hablan por nosotros</h2>
+    <h2 id="Skills" class="fw-bold mb-5">Nuestros números hablan por nosotros</h2>
     <div class="row text-center gy-4">
       
       <div class="col-6 col-lg-3">
@@ -118,19 +118,10 @@
   </div>
 </section>
 
-
-
 <!-- CTA -->
 <section class="py-5">
   <div class="container">
     <div class="row align-items-center">
-      
-      <!-- Imagen a la izquierda -->
-      <div class="col-12 col-lg-6 mb-4 mb-lg-0 text-center">
-        <img src="{% static 'metrics/img/metricas.jpg' %}" 
-             class="img-fluid rounded shadow"
-             alt="Métricas de crecimiento">
-      </div>
 
       <!-- Texto a la derecha -->
       <div class="col-12 col-lg-6 text-center">
@@ -139,10 +130,30 @@
           Integramos tus métricas en minutos. Diseño moderno y datos claros.
         </p>
       </div>
+      
+      <!-- Imagen a la izquierda -->
+      <div class="col-12 col-lg-6 mb-4 mb-lg-0 text-center">
+        <img src="{% static 'metrics/img/metricas.jpg' %}" 
+             class="img-fluid rounded shadow"
+             alt="Métricas de crecimiento">
+      </div>
 
     </div>
   </div>
 </section>
+
+<!-- DISTRIBUCIÓN DE TECNOLOGÍAS -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5">Distribución de Tecnologías</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+        <canvas id="techDonut"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Footer Section -->
 <section class="bg-dark text-light py-5">
