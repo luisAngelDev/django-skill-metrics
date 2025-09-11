@@ -142,17 +142,74 @@
   </div>
 </section>
 
-<!-- DISTRIBUCIÓN DE TECNOLOGÍAS -->
-<section class="py-5 bg-light">
+
+<!-- Testimonios Section -->
+<section class="bg-dark text-white py-5">
   <div class="container text-center">
-    <h2 class="fw-bold mb-5">Distribución de Tecnologías</h2>
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6">
-        <canvas id="techDonut"></canvas>
+    <h2 class="mb-4">Testimonials</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Testimonio 1 -->
+        <div class="carousel-item active">
+          <div class="d-flex flex-column align-items-center">
+            <img src="{% static 'metrics/img/persona1.jpg' %}" class="rounded-circle mb-3" width="100" height="100" alt="Persona 1">
+            <h5>dala Shihab</h5>
+            <p class="text-muted">Creative Director</p>
+            <p class="w-75 mx-auto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet, 
+              ipsum vel congue ultrices, nibh ipsum blandit lorem, sed facilisis lorem justo eget nulla.
+            </p>
+          </div>
+        </div>
+
+        <!-- Testimonio 2 -->
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center">
+            <img src="{% static 'metrics/img/persona2.jpg' %}" class="rounded-circle mb-3" width="100" height="100" alt="Persona 2">
+            <h5>Jane Doe</h5>
+            <p class="text-muted">Software Engineer</p>
+            <p class="w-75 mx-auto">
+              Suspendisse potenti. Aliquam erat volutpat. Quisque sit amet 
+              massa id lectus tristique cursus eget vitae risus.
+            </p>
+          </div>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center">
+            <img src="{% static 'metrics/img/persona3.jpg' %}" class="rounded-circle mb-3" width="100" height="100" alt="Persona 3">
+            <h5>Johana Smith</h5>
+            <p class="text-muted">Product Manager</p>
+            <p class="w-75 mx-auto">
+              Phasellus posuere lectus id malesuada convallis. Morbi ut neque ac neque 
+              malesuada tincidunt nec ac mauris.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controles del carrusel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+      <!-- Indicadores -->
+      <div class="carousel-indicators mt-3">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
       </div>
     </div>
   </div>
 </section>
+
+
 
 
 <!-- Footer Section -->
