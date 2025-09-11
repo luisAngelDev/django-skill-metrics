@@ -58,48 +58,7 @@
         </div>
         </div>
     </footer>
-
-    <script>
-        const ctx = document.getElementById('techDonut').getContext('2d');
-        new Chart(ctx, {
-          type: 'doughnut',
-          data: {
-            labels: [
-              'Backend (Java, Spring, Django)',
-              'Frontend (Angular)',
-              'DevOps (Docker, CI/CD)',
-              'Bases de datos (PostgreSQL, SQLite)'
-            ],
-            datasets: [{
-              data: [40, 30, 20, 10], // porcentajes
-              backgroundColor: [
-                '#ffc107', // amarillo
-                '#0d6efd', // azul
-                '#198754', // verde
-                '#6c757d'  // gris
-              ],
-              borderWidth: 1
-            }]
-          },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: {
-                position: 'bottom',
-                labels: { color: '#333' }
-              },
-              tooltip: {
-                callbacks: {
-                  label: function(context) {
-                    return `${context.label}: ${context.parsed}%`;
-                  }
-                }
-              }
-            }
-          }
-        });
-      </script>
-      
+ 
 
 </body>
 </html>
