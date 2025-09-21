@@ -18,14 +18,32 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 
 /* Extra estilos para los contadores */
 .counter-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  .counter-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 15px rgba(255,193,7,0.3);
-  }
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.counter-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 0 15px rgba(255,193,7,0.3);
+}
   
-  .counter-card i {
-    display: block;
-  }
+.counter-card i {
+  display: block;
+}
   
+
+/* estilos para los hovers de las cajas */
+.service-box {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 8px; /* opcional, para darle bordes redondeados */
+}
+  
+.service-box:hover {
+  transform: translateY(-8px); /* efecto de levantar la caja */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* sombra */
+  background-color: #212529 !important; /* cambia a un fondo más oscuro */
+}
+  
+.service-box:hover h5,
+.service-box:hover p {
+  color: #ffc107 !important; /* amarillo */
+}
