@@ -53,3 +53,6 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   position: static; /* que ya no sea absoluto */
   margin-top: 2rem; /* separarlos del texto */
 }
+
+
+
