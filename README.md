@@ -3,7 +3,7 @@
 web donde se muestra ademas de la informacion, el uso de metricas y contadores animados que se cargan al rehiciar la pagina y una zona de testimonios de los clientes.
 
 ## Vista previa
-![Vista previa](screenshots/metrics.PNG)
+![Vista previa](screenshots/metricasPage.PNG)
 
 ## Características
 
