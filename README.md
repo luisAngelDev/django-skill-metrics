@@ -47,7 +47,7 @@ Sigue estos pasos para correr el proyecto en tu máquina local:
    ```
 
 ## 📂 Estructura del proyecto
-
+```bash
 django-skill-metrics/
 ├── manage.py
 ├── django_skill_metrics/ # Configuración principal del proyecto
@@ -81,7 +81,8 @@ django-skill-metrics/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-└── .env # Variables de entorno (ignorado por git)
+└── 
+```
 
 ## 👨‍💻 Autor
 
