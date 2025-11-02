@@ -1,6 +1,6 @@
 # web con metricas y contadores
 
-web donde se muestra ademas de la información, el uso de metricas y contadores animados que se cargan al rehiniciar la pagina y una zona de testimonios de los clientes.
+web hecha en Django y Bootstrap donde se muestra ademas de la información, el uso de metricas y contadores animados que se cargan al rehiniciar la pagina y una zona de testimonios de los clientes.
 
 ## Vista previa
 ![Vista previa](screenshots/metricasPage.PNG)
