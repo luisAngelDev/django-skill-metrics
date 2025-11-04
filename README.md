@@ -10,7 +10,9 @@ web hecha en Django y Bootstrap donde se muestra ademas de la información, el u
 - Listado de metricas en barras de crecimiento horizontal.
 - Listado de metricas en contadores numericos.
 - seccion de cuadros informativos.
+- seccion de los servicios ofrecidos.
 - seccion de testimonios de clientes en banner automatico.
+- seccion de los productos que estan disponibles.
 - seccion de enlaces de contacto.
 - Backend desarrollado con Django 5.2.4.
 
