@@ -1,6 +1,6 @@
 # web con metricas y contadores
 
-web hecha en Django y Bootstrap donde se muestra ademas de la información, el uso de metricas y contadores animados que se cargan al rehiniciar la pagina y una zona de testimonios de los clientes.
+Web hecha en Django y Bootstrap donde se muestra ademas de la información, el uso de metricas y contadores animados que se cargan al rehiniciar la pagina y una zona de testimonios de los clientes.
 
 ## Vista previa
 ![Vista previa](screenshots/metricasPage.PNG)
@@ -19,7 +19,7 @@ web hecha en Django y Bootstrap donde se muestra ademas de la información, el u
 
 ## ⚙️ Instalación
 
-Sigue estos pasos para correr el proyecto en tu máquina local:
+Sigue estos pasos para desplegar el proyecto en tu máquina local:
 
 1. Clona el repositorio:
    ```bash
